@@ -1,0 +1,63 @@
+header{font-family: "Josefin", Sans;
+font-weight: normal;
+font-style:normal;}
+
+header{background-image: url("images/spalted_maple2.jpg"); 
+    background-repeat: no-repeat;           
+    background-size: cover;                 
+    background-attachment: fixed;
+	color:black;
+border: outset;
+margin-bottom: 50px;
+}
+
+#navbar{
+display:flex;
+justify-content: left;
+
+
+}
+
+
+
+#navbar li{display: inline-block;
+margin right: 10px;
+}
+
+#navbar ul{list-style-type: none;
+gap: 2.5rem;}
+
+#navbar a{color:#FBFFFF;
+		text-decoration: none;
+		text-align: right;
+			border:outset;
+			padding: 15px 20px;
+			gap:}
+
+
+
+body {
+font-family: "Roboto", condensed;
+font-weight: normal;
+font-style:normal;
+}
+
+
+h1{color: white;}
+p{color: white;}
+footer{
+text-align:center;
+	font-style:italic;
+}
+footer a{color:white;
+	text-decoration:none;
+	justify-content:center;}
+
+.card{display:flex;
+	align-items: center;
+	border: 2px outset #ddd;
+	padding:10px;
+	gap: 20px;
+	margin-right: 12px;}
+
+.card img{width:400px;}

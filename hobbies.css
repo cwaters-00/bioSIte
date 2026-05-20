@@ -1,0 +1,36 @@
+header{background-image: url("images/spalted_maple2.jpg"); 
+    background-repeat: no-repeat;           
+    background-size: cover;                 
+    background-attachment: fixed;
+border: outset;}
+
+#navbar{
+display:flex;
+justify-content: left;
+
+
+}
+
+
+
+#navbar li{display: inline-block;
+margin right: 10px;
+}
+
+#navbar ul{list-style-type: none;
+gap: 2.5rem;}
+
+#navbar a{color:#FBFFFF;
+		text-decoration: none;
+		text-align: right;
+			border:outset;
+			padding: 15px 20px;
+			gap:}
+
+footer{
+text-align:center;
+	font-style:italic;
+}
+footer a{color:white;
+	text-decoration:none;
+	justify-content:center;}

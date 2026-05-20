@@ -1,0 +1,79 @@
+header{background-image: url("images/spalted_maple2.jpg"); 
+    background-repeat: no-repeat;           
+    background-size: cover;                 
+    background-attachment: fixed;
+	color:black;
+border: outset;
+margin-bottom:50px;
+}
+
+#navbar{
+display:flex;
+justify-content: left;
+
+
+}
+
+
+
+#navbar li{display: inline-block;
+margin right: 10px;
+}
+
+#navbar ul{list-style-type: none;
+gap: 2.5rem;}
+
+#navbar a{color:#FBFFFF;
+font-family:"Josefin", sans;
+		text-decoration: none;
+		text-align: right;
+			border:outset;
+			padding: 15px 20px;
+			gap:}
+
+
+body,html{height:75%;
+		width:90%;}
+
+.hero-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/cs_mask.jpg");
+height:250%;
+width:fite-content;
+background-position:center;
+background-repeat: no-repeat;
+background-size:contain;
+position:relative;
+border:  2px outset;
+margin-right:50px;
+margin-left:190px;
+margin-top:90;
+margin-bottom:90;
+
+}
+
+
+.hero-text{
+	text-align:center;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color:white;}
+
+.learn-more-btn {
+	color:white;
+	text-decoration:none;
+	border: inset;
+	border-radius: 4px;
+	cursor: pointer;
+	
+}
+
+h2{color: white;}
+p{color:white;}
+
+footer{text-align:right;}
+
+footer a {color:white;
+font-style:italic;
+}
